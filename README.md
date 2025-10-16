@@ -8,7 +8,8 @@ The hypothetical application represented here would have the following parts and
 * A ML-based classifier
 * An authentication system based on NextAuth
 
-<img width="1422" height="396" alt="image" src="https://github.com/user-attachments/assets/b54aa188-5259-4eb6-9b0f-bd0566244cea" />
+
+<img width="1028" height="376" alt="image" src="https://github.com/user-attachments/assets/9d725637-bc7f-4f74-8bcc-6ccad336f63f" />
 
 
 © Copyright 2023 [Ketryx Corporation](https://www.ketryx.com/)
