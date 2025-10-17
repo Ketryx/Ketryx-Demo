@@ -1,0 +1,35 @@
+{
+  "name": "local-ketryx-test",
+  "description": "Minimal test version of local-ketryx integration",
+  "key": "com.local-ketryx.app.atlassian.minimal",
+  "baseUrl": "https://8407df3d5f5e.ngrok.app",
+  "vendor": {
+    "name": "local-ketryx",
+    "url": "https://www.ketryx.com"
+  },
+  "authentication": {
+    "type": "jwt"
+  },
+  "scopes": ["READ", "WRITE"],
+  "apiVersion": 1,
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "modules": {
+    "jiraIssueFields": [
+      {
+        "key": "rationale",
+        "name": { "value": "Rationale" },
+        "description": { "value": "The rationale behind this item." },
+        "type": "rich-text"
+      },
+      {
+        "key": "notes",
+        "name": { "value": "Additional notes" },
+        "description": { "value": "Additional notes or comments." },
+        "type": "richText"
+      }
+    ]
+  }
+}
